@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Tab</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="clock-wrapper">
+        <div class="display">
+            <h2 class="time"></h2>
+            <small class="am-pm"></small>
+        </div>
+    </div>
+    <h2>I have to be a Programmer!</h2>
+    <p>i have to work much harder</p>
+    <button class="task-btn">Today Task List</button>
+
+    <!-- popup section -->
+    <div class="overlay">
+        <div class="task-list-wrapper" id="modal">
+            <div class="card">
+                <div class="card-header">
+                    <p>Task List</p>
+                    <p id="today"></p>
+                </div>
+                <div class="card-body">
+                    <ul>
+                        <li>
+                            <span>
+                                <h3>This is Task Title</h3>
+                                <p>This is Task Discription</p>
+                            </span>
+                            <a href="javascript:" class="close">&times;</a>
+                        </li>
+                        <li>
+                            <span>
+                                <h3>This is Task Title</h3>
+                                <p>This is Task Discription</p>
+                            </span>
+                            <a href="javascript:" class="close">&times;</a>
+                        </li>
+                        <li>
+                            <span>
+                                <h3>This is Task Title</h3>
+                                <p>This is Task Discription</p>
+                            </span>
+                            <a href="javascript:" class="close">&times;</a>
+                        </li>
+                        <li>
+                            <span>
+                                <h3>This is Task Title</h3>
+                                <p>This is Task Discription</p>
+                            </span>
+                            <a href="javascript:" class="close">&times;</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card-footer">
+                    <button id="remove"><i class="fas fa-times"></i>Remove</button>
+                    <button id="add"><i class="fas fa-plus"></i>Add</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <small class="credit">Extension Developer: <a href="https://github.com/rahat-mohiuddin">Mohiuddin Rahat</a> </small>
+<script src="app.js"></script>
+</body>
+</html>
